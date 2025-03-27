@@ -6,12 +6,12 @@ import java.awt.Font;
 import javax.swing.*;
 import javax.swing.table.DefaultTableModel;
 
-import ui_student_evt.GesipanEvt;
+import ui_student_evt.BoardEvt;
 
 import java.awt.event.ActionListener;
 import java.awt.event.ActionEvent;
 
-public class Gesipan extends JDialog {
+public class BoardView extends JDialog {
 
 	private JTable table;
 	private JButton jbtnWrite;
@@ -25,7 +25,7 @@ public class Gesipan extends JDialog {
 		return table;
 	}
 
-	public Gesipan(mainWindow mw) {
+	public BoardView(mainWindow mw) {
 		super(mw,"1:1문의",true);
 		setBounds(100, 100, 675, 550);
 		getContentPane().setLayout(new BorderLayout());
@@ -70,7 +70,7 @@ public class Gesipan extends JDialog {
 		contentPanel.add(jbtnWrite);
 		
 		// #. 이벤트 작성
-		GesipanEvt ge = new GesipanEvt(this);
+		BoardEvt ge = new BoardEvt(this);
 		jbtnWrite.addActionListener(ge);
 		table.addMouseListener(ge);;
 		

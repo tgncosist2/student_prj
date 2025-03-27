@@ -699,39 +699,39 @@ public class Example_Test extends JDialog {
 
 	public JLabel getJlblNo1TitleSet() {
 		return jlblNo1TitleSet;
-	}
+	}// getJlblNo1TitleSet
 
 	public JLabel getJlblNo1OptionAnw_1() {
 		return jlblNo1OptionAnw_1;
-	}
+	}// getJlblNo1OptionAnw_1
 
 	public JLabel getJlblNo1OptionAnw_3() {
 		return jlblNo1OptionAnw_3;
-	}
+	}// getJlblNo1OptionAnw_3
 
 	public JLabel getJlblNo1OptionAnw_2() {
 		return jlblNo1OptionAnw_2;
-	}
+	}// getJlblNo1OptionAnw_2
 
 	public JLabel getJlblNo1OptionAnw_4() {
 		return jlblNo1OptionAnw_4;
-	}
+	}// getJlblNo1OptionAnw_4
 
 	public JLabel getJlblNo2TitleSet() {
 		return jlblNo2TitleSet;
-	}
+	}// getJlblNo2TitleSet
 
 	public JLabel getJlblNo2OptionAnw_1() {
 		return jlblNo2OptionAnw_1;
-	}
+	}// getJlblNo2OptionAnw_1
 
 	public JLabel getJlblNo2OptionAnw_3() {
 		return jlblNo2OptionAnw_3;
-	}
+	}// getJlblNo2OptionAnw_3
 
 	public JLabel getJlblNo2OptionAnw_2() {
 		return jlblNo2OptionAnw_2;
-	}
+	}// getJlblNo2OptionAnw_2
 
 	public JLabel getJlblNo2OptionAnw_4() {
 		return jlblNo2OptionAnw_4;

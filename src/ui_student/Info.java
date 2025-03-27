@@ -12,12 +12,11 @@ import java.awt.event.ActionEvent;
 
 public class Info extends JDialog {
 
-	private JTextField jtfTel;
 	private JButton jbtnPassChange;
+	private JTextField jtfTel;
+	private JLabel jlblIDSet;
+	private JLabel jlblNameSet;
 	
-	public JButton getJbtnPassChange() {
-		return jbtnPassChange;
-	}
 
 	public Info(mainWindow mw) {
 		super(mw, "개인정보", true);
@@ -69,21 +68,21 @@ public class Info extends JDialog {
 		jlblTrainingPeriod.setBounds(60, 360, 80, 15);
 		contentPanel.add(jlblTrainingPeriod);
 		
-		JLabel jlblID_1 = new JLabel("20250001");
-		jlblID_1.setBounds(178, 60, 200, 15);
-		contentPanel.add(jlblID_1);
+		jlblIDSet = new JLabel("20250001");
+		jlblIDSet.setBounds(178, 60, 200, 15);
+		contentPanel.add(jlblIDSet);
 		
 		jbtnPassChange = new JButton("비밀번호 변경");
 		jbtnPassChange.setBounds(175, 87, 120, 20);
 		contentPanel.add(jbtnPassChange);
 		
-		JLabel jlblName_1 = new JLabel("홍길동");
-		jlblName_1.setBounds(178, 120, 200, 15);
-		contentPanel.add(jlblName_1);
+		jlblNameSet = new JLabel("홍길동");
+		jlblNameSet.setBounds(178, 120, 200, 15);
+		contentPanel.add(jlblNameSet);
 		
-		JLabel jlblBirth_1 = new JLabel("1996-04-02");
-		jlblBirth_1.setBounds(178, 150, 200, 15);
-		contentPanel.add(jlblBirth_1);
+		JLabel jlblBirthSet = new JLabel("1996-04-02");
+		jlblBirthSet.setBounds(178, 150, 200, 15);
+		contentPanel.add(jlblBirthSet);
 		
 		JTextArea jtaAddress = new JTextArea();
 		jtaAddress.setText("제주특별자치도 애월읍 하소로 18 킹스톤 A동 202호");
@@ -91,23 +90,23 @@ public class Info extends JDialog {
 		jtaAddress.setLineWrap(true);
 		contentPanel.add(jtaAddress);
 		
-		JLabel jlblCourseName_1 = new JLabel("<html>AWS와 Docker&Kuberneter활용한<br>Java Full-Stack 개발자 양성과정</html>");
-		jlblCourseName_1.setBounds(178, 290, 200, 30);
-		contentPanel.add(jlblCourseName_1);
+		JLabel jlblCourseNameSet = new JLabel("<html>AWS와 Docker&Kuberneter활용한<br>Java Full-Stack 개발자 양성과정</html>");
+		jlblCourseNameSet.setBounds(178, 290, 200, 30);
+		contentPanel.add(jlblCourseNameSet);
 		
 		jtfTel = new JTextField();
 		jtfTel.setText("010-5745-1853");
 		jtfTel.setBounds(178, 175, 200, 20);
-		contentPanel.add(jtfTel);
 		jtfTel.setColumns(10);
+		contentPanel.add(jtfTel);
 		
-		JLabel jlblTeacherName_1 = new JLabel("아무개");
-		jlblTeacherName_1.setBounds(178, 330, 200, 15);
-		contentPanel.add(jlblTeacherName_1);
+		JLabel jlblTeacherNameSet = new JLabel("아무개");
+		jlblTeacherNameSet.setBounds(178, 330, 200, 15);
+		contentPanel.add(jlblTeacherNameSet);
 		
-		JLabel jlblTrainingPeriod_1 = new JLabel("2025-07-24");
-		jlblTrainingPeriod_1.setBounds(178, 360, 200, 15);
-		contentPanel.add(jlblTrainingPeriod_1);
+		JLabel jlblTrainingPeriodSet = new JLabel("2025-07-24");
+		jlblTrainingPeriodSet.setBounds(178, 360, 200, 15);
+		contentPanel.add(jlblTrainingPeriodSet);
 		
 		JButton jbtnOk = new JButton("수정");
 		jbtnOk.setBounds(110, 400, 100, 30);
@@ -117,8 +116,8 @@ public class Info extends JDialog {
 		jbtnCancel.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
 				dispose();
-			}
-		});
+			}// actionPerformed
+		});// 닫기버튼 종료처리
 		jbtnCancel.setBounds(240, 400, 100, 30);
 		contentPanel.add(jbtnCancel);
 		
@@ -126,7 +125,15 @@ public class Info extends JDialog {
 		InfoEvt ie = new InfoEvt(this);
 		jbtnPassChange.addActionListener(ie);
 		
+		// 부모창에서 켜지기
 		setLocationRelativeTo(mw);
+		
+		// 가시화
 		setVisible(true);
 	}
-}
+
+	public JButton getJbtnPassChange() {
+		return jbtnPassChange;
+	}// getJbtnPassChange
+	
+}// class

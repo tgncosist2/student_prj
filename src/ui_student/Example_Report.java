@@ -115,7 +115,7 @@ public class Example_Report extends JDialog {
 		btnNewButton.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
 				dispose();
-			}
+			}// actionPerformed
 		});
 		btnNewButton.setBounds(155, 270, 100, 25);
 		contentPanel.add(btnNewButton);
@@ -123,7 +123,7 @@ public class Example_Report extends JDialog {
 		setBounds(100, 100, 440, 350);
 		setLocationRelativeTo(e);
 		setVisible(true);
-	}
+	}// Example_Report
 
 	public JLabel getJlblNameSet() {
 		return jlblNameSet;

@@ -9,20 +9,22 @@ import ui_student.Example_Test;
 
 public class ExampleEvt implements ActionListener {
 
-	Example exam;
-	
+	private Example exam;
+
 	public ExampleEvt(Example exam) {
 		this.exam = exam;
-	}
+	}// ExampleEvt
 
 	@Override
 	public void actionPerformed(ActionEvent e) {
-		if(e.getSource() == exam.getJbtnReport()) {
+		if (e.getSource() == exam.getJbtnReport()) {
 			new Example_Report(exam);
-		}// 성적표 버튼
-		if(e.getSource() == exam.getJbtnGoTest()) {
+		} // 성적표 버튼
+
+		if (e.getSource() == exam.getJbtnGoTest()) {
 			new Example_Test(exam);
-		}// 성적표 버튼
+		} // 시험 버튼
+
 	}// actionPerformed
 
-}
+}// class

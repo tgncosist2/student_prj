@@ -14,9 +14,9 @@ import javax.swing.JTextArea;
 import java.awt.event.ActionListener;
 import java.awt.event.ActionEvent;
 
-public class Gesipan_Read extends JDialog {
+public class BoardReadView extends JDialog {
 
-	public Gesipan_Read(Gesipan ges, int num) {
+	public BoardReadView(BoardView ges, int num) {
 		super(ges, "읽기", true);
 		JPanel contentPanel = new JPanel();
 		setBounds(100, 100, 675, 551);

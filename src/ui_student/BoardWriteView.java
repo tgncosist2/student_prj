@@ -14,11 +14,11 @@ import javax.swing.JTextArea;
 import java.awt.event.ActionListener;
 import java.awt.event.ActionEvent;
 
-public class Gesipan_Write extends JDialog {
+public class BoardWriteView extends JDialog {
 
 	private JTextField jtfTitle;
 
-	public Gesipan_Write(Gesipan ges) {
+	public BoardWriteView(BoardView ges) {
 		super(ges,"작성",true);
 		setBounds(100, 100, 675, 550);
 		getContentPane().setLayout(new BorderLayout());
