@@ -20,6 +20,14 @@ import java.awt.Color;
 
 public class Example_Report extends JDialog {
 
+	private JLabel jlblNameSet;
+	private JLabel jlblTeacherSet;
+	private JLabel jlblTrainingPeriodSet;
+	private JLabel jlblGradeSet;
+	private JLabel jlblAnswerSet;
+	private JLabel jlblAverageSet;
+	private JComboBox jcbSubjectSet;
+	
 	public Example_Report(Example e) {
 		super(e,"성적표",true);
 		JPanel contentPanel = new JPanel();
@@ -38,70 +46,70 @@ public class Example_Report extends JDialog {
 		jlblName.setHorizontalAlignment(SwingConstants.CENTER);
 		contentPanel.add(jlblName);
 		
-		JLabel jlblName_1 = new JLabel("홍길동");
-		jlblName_1.setHorizontalAlignment(SwingConstants.CENTER);
-		jlblName_1.setBounds(220, 40, 70, 20);
-		contentPanel.add(jlblName_1);
+		jlblNameSet = new JLabel("홍길동");
+		jlblNameSet.setHorizontalAlignment(SwingConstants.CENTER);
+		jlblNameSet.setBounds(220, 40, 70, 20);
+		contentPanel.add(jlblNameSet);
 		
 		JLabel jlblTeacher = new JLabel("담당강사");
 		jlblTeacher.setHorizontalAlignment(SwingConstants.CENTER);
 		jlblTeacher.setBounds(110, 70, 70, 20);
 		contentPanel.add(jlblTeacher);
 		
-		JLabel jlblTeacher_1 = new JLabel("아무개");
-		jlblTeacher_1.setHorizontalAlignment(SwingConstants.CENTER);
-		jlblTeacher_1.setBounds(220, 70, 70, 20);
-		contentPanel.add(jlblTeacher_1);
+		jlblTeacherSet = new JLabel("아무개");
+		jlblTeacherSet.setHorizontalAlignment(SwingConstants.CENTER);
+		jlblTeacherSet.setBounds(220, 70, 70, 20);
+		contentPanel.add(jlblTeacherSet);
 		
 		JLabel jlblTrainingPeriod = new JLabel("교육기간");
 		jlblTrainingPeriod.setHorizontalAlignment(SwingConstants.CENTER);
 		jlblTrainingPeriod.setBounds(110, 100, 70, 20);
 		contentPanel.add(jlblTrainingPeriod);
 		
-		JLabel jlblTrainingPeriod_1 = new JLabel("2025-07-25");
-		jlblTrainingPeriod_1.setHorizontalAlignment(SwingConstants.CENTER);
-		jlblTrainingPeriod_1.setBounds(220, 100, 70, 20);
-		contentPanel.add(jlblTrainingPeriod_1);
+		jlblTrainingPeriodSet = new JLabel("2025-07-25");
+		jlblTrainingPeriodSet.setHorizontalAlignment(SwingConstants.CENTER);
+		jlblTrainingPeriodSet.setBounds(220, 100, 70, 20);
+		contentPanel.add(jlblTrainingPeriodSet);
 		
 		JLabel jlblSubject = new JLabel("과목");
 		jlblSubject.setHorizontalAlignment(SwingConstants.CENTER);
 		jlblSubject.setBounds(110, 130, 70, 20);
 		contentPanel.add(jlblSubject);
 		
-		JComboBox jcbSubject = new JComboBox();
-		jcbSubject.setModel(new DefaultComboBoxModel(new String[] {"Java", "Oracle"}));
-		jcbSubject.setBounds(220, 130, 70, 20);
-		contentPanel.add(jcbSubject);
+		jcbSubjectSet = new JComboBox();
+		jcbSubjectSet.setModel(new DefaultComboBoxModel(new String[] {"Java", "Oracle"}));
+		jcbSubjectSet.setBounds(220, 130, 70, 20);
+		contentPanel.add(jcbSubjectSet);
 		
 		JLabel jlblGrade = new JLabel("성적");
 		jlblGrade.setHorizontalAlignment(SwingConstants.CENTER);
 		jlblGrade.setBounds(110, 160, 70, 20);
 		contentPanel.add(jlblGrade);
 		
-		JLabel lblA = new JLabel("A");
-		lblA.setHorizontalAlignment(SwingConstants.CENTER);
-		lblA.setBounds(220, 160, 70, 20);
-		contentPanel.add(lblA);
+		jlblGradeSet = new JLabel("A");
+		jlblGradeSet.setHorizontalAlignment(SwingConstants.CENTER);
+		jlblGradeSet.setBounds(220, 160, 70, 20);
+		contentPanel.add(jlblGradeSet);
 		
 		JLabel jlblAnswer = new JLabel("정답수");
 		jlblAnswer.setHorizontalAlignment(SwingConstants.CENTER);
 		jlblAnswer.setBounds(110, 190, 70, 20);
 		contentPanel.add(jlblAnswer);
 		
-		JLabel jlblAnswer_1 = new JLabel("8/10");
-		jlblAnswer_1.setHorizontalAlignment(SwingConstants.CENTER);
-		jlblAnswer_1.setBounds(220, 190, 70, 20);
-		contentPanel.add(jlblAnswer_1);
+		jlblAnswerSet = new JLabel("8/10");
+		jlblAnswerSet.setHorizontalAlignment(SwingConstants.CENTER);
+		jlblAnswerSet.setBounds(220, 190, 70, 20);
+		contentPanel.add(jlblAnswerSet);
 		
 		JLabel jlblAverage = new JLabel("평균");
 		jlblAverage.setHorizontalAlignment(SwingConstants.CENTER);
 		jlblAverage.setBounds(110, 220, 70, 20);
 		contentPanel.add(jlblAverage);
 		
-		JLabel jlblAverage_1 = new JLabel("9/10");
-		jlblAverage_1.setHorizontalAlignment(SwingConstants.CENTER);
-		jlblAverage_1.setBounds(220, 223, 70, 20);
-		contentPanel.add(jlblAverage_1);
+		jlblAverageSet = new JLabel("9/10");
+		jlblAverageSet.setHorizontalAlignment(SwingConstants.CENTER);
+		jlblAverageSet.setBounds(220, 223, 70, 20);
+		contentPanel.add(jlblAverageSet);
 		
 		JButton btnNewButton = new JButton("닫기");
 		btnNewButton.addActionListener(new ActionListener() {
@@ -117,4 +125,34 @@ public class Example_Report extends JDialog {
 		setVisible(true);
 	}
 
+	public JLabel getJlblNameSet() {
+		return jlblNameSet;
+	}
+
+	public JLabel getJlblTeacherSet() {
+		return jlblTeacherSet;
+	}
+
+	public JLabel getJlblTrainingPeriodSet() {
+		return jlblTrainingPeriodSet;
+	}
+
+	public JLabel getJlblGradeSet() {
+		return jlblGradeSet;
+	}
+
+	public JLabel getJlblAnswerSet() {
+		return jlblAnswerSet;
+	}
+
+	public JLabel getJlblAverageSet() {
+		return jlblAverageSet;
+	}
+
+	public JComboBox getJcbSubjectSet() {
+		return jcbSubjectSet;
+	}
+
+	
+	
 }

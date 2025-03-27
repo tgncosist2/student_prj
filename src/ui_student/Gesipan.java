@@ -59,7 +59,7 @@ public class Gesipan extends JDialog {
 		contentPanel.add(jbtnCancel);
 		
 		table = new JTable(dtm);
-		contentPanel.add(table);
+		table.setDefaultEditor(Object.class, null);
 		
 		JScrollPane scrollPane = new JScrollPane(table);
 		scrollPane.setBounds(25,40,600,400);

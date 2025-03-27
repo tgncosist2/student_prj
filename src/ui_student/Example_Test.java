@@ -8,6 +8,57 @@ import java.awt.event.ActionEvent;
 
 public class Example_Test extends JDialog {
 
+    private JLabel jlblNo1TitleSet;
+    private JLabel jlblNo1OptionAnw_1;
+    private JLabel jlblNo1OptionAnw_3;
+    private JLabel jlblNo1OptionAnw_2;
+    private JLabel jlblNo1OptionAnw_4;
+    private JLabel jlblNo2TitleSet;
+    private JLabel jlblNo2OptionAnw_1;
+    private JLabel jlblNo2OptionAnw_3;
+    private JLabel jlblNo2OptionAnw_2;
+    private JLabel jlblNo2OptionAnw_4;
+    private JLabel jlblNo3TitleSet;
+    private JLabel jlblNo3OptionAnw_1;
+    private JLabel jlblNo3OptionAnw_3;
+    private JLabel jlblNo3OptionAnw_2;
+    private JLabel jlblNo3OptionAnw_4;
+    private JLabel jlblNo4TitleSet;
+    private JLabel jlblNo4OptionAnw_1;
+    private JLabel jlblNo4OptionAnw_3;
+    private JLabel jlblNo4OptionAnw_2;
+    private JLabel jlblNo4OptionAnw_4;
+    private JLabel jlblNo5TitleSet;
+    private JLabel jlblNo5OptionAnw_1;
+    private JLabel jlblNo5OptionAnw_3;
+    private JLabel jlblNo5OptionAnw_2;
+    private JLabel jlblNo5OptionAnw_4;
+    private JLabel jlblNo6TitleSet;
+    private JLabel jlblNo6OptionAnw_1;
+    private JLabel jlblNo6OptionAnw_3;
+    private JLabel jlblNo6OptionAnw_2;
+    private JLabel jlblNo6OptionAnw_4;
+    private JLabel jlblNo7TitleSet;
+    private JLabel jlblNo7OptionAnw_1;
+    private JLabel jlblNo7OptionAnw_3;
+    private JLabel jlblNo7OptionAnw_2;
+    private JLabel jlblNo7OptionAnw_4;
+    private JLabel jlblNo8TitleSet;
+    private JLabel jlblNo8OptionAnw_1;
+    private JLabel jlblNo8OptionAnw_3;
+    private JLabel jlblNo8OptionAnw_2;
+    private JLabel jlblNo8OptionAnw_4;
+    private JLabel jlblNo9TitleSet;
+    private JLabel jlblNo9OptionAnw_1;
+    private JLabel jlblNo9OptionAnw_3;
+    private JLabel jlblNo9OptionAnw_2;
+    private JLabel jlblNo9OptionAnw_4;
+    private JLabel jlblNo10TitleSet;
+    private JLabel jlblNo10OptionAnw_1;
+    private JLabel jlblNo10OptionAnw_3;
+    private JLabel jlblNo10OptionAnw_2;
+    private JLabel jlblNo10OptionAnw_4;
+
 	public Example_Test(Example e) {
 		super(e, "시험", true);
 		getContentPane().setLayout(null);
@@ -37,9 +88,9 @@ public class Example_Test extends JDialog {
 		jpNo1Exam.add(jlblNo1Title);
 		jlblNo1Title.setHorizontalAlignment(SwingConstants.CENTER);
 		
-		JLabel jlblNo1Sub = new JLabel("<html>JAVA 변수타입 중 정수형이 아닌 것은?</html>");
-		jlblNo1Sub.setBounds(70, 10, 430, 30);
-		jpNo1Exam.add(jlblNo1Sub);
+		jlblNo1TitleSet = new JLabel("<html>JAVA 변수타입 중 정수형이 아닌 것은?</html>");
+		jlblNo1TitleSet.setBounds(70, 10, 430, 30);
+		jpNo1Exam.add(jlblNo1TitleSet);
 		
 		
 		JLabel jlblNo1Option_1 = new JLabel("①");
@@ -66,19 +117,19 @@ public class Example_Test extends JDialog {
 		jlblNo1Answer.setBounds(370, 190, 40, 20);
 		jpNo1Exam.add(jlblNo1Answer);
 		
-		JLabel jlblNo1OptionAnw_1 = new JLabel("int");
+		jlblNo1OptionAnw_1 = new JLabel("int");
 		jlblNo1OptionAnw_1.setBounds(70, 55, 420, 30);
 		jpNo1Exam.add(jlblNo1OptionAnw_1);
 		
-		JLabel jlblNo1OptionAnw_3 = new JLabel("long");
+		jlblNo1OptionAnw_3 = new JLabel("long");
 		jlblNo1OptionAnw_3.setBounds(70, 85, 420, 30);
 		jpNo1Exam.add(jlblNo1OptionAnw_3);
 		
-		JLabel jlblNo1OptionAnw_2 = new JLabel("byte");
+		jlblNo1OptionAnw_2 = new JLabel("byte");
 		jlblNo1OptionAnw_2.setBounds(70, 115, 420, 30);
 		jpNo1Exam.add(jlblNo1OptionAnw_2);
 		
-		JLabel jlblNo1OptionAnw_4 = new JLabel("float");
+		jlblNo1OptionAnw_4 = new JLabel("float");
 		jlblNo1OptionAnw_4.setBounds(70, 145, 420, 30);
 		jpNo1Exam.add(jlblNo1OptionAnw_4);
 		
@@ -98,9 +149,9 @@ public class Example_Test extends JDialog {
 		jlblNo2Title.setBounds(10, 15, 50, 20);
 		jpNo2Exam.add(jlblNo2Title);
 		
-		JLabel jlblNo2Sub = new JLabel("<html>메시지 지향 미들웨어(Message-Oriented Middleware, MOM)에 대한 설명으로 틀린 것은?</html>");
-		jlblNo2Sub.setBounds(70, 10, 430, 30);
-		jpNo2Exam.add(jlblNo2Sub);
+		jlblNo2TitleSet = new JLabel("<html>메시지 지향 미들웨어(Message-Oriented Middleware, MOM)에 대한 설명으로 틀린 것은?</html>");
+		jlblNo2TitleSet.setBounds(70, 10, 430, 30);
+		jpNo2Exam.add(jlblNo2TitleSet);
 		
 		JLabel jlblNo2Option_1 = new JLabel("①");
 		jlblNo2Option_1.setHorizontalAlignment(SwingConstants.CENTER);
@@ -126,19 +177,19 @@ public class Example_Test extends JDialog {
 		jlblNo2Answer.setBounds(370, 190, 40, 20);
 		jpNo2Exam.add(jlblNo2Answer);
 		
-		JLabel jlblNo2OptionAnw_1 = new JLabel("<html>느리고 안정적인 응답보다는 즉각적인 응답이 필요한 온라인 업무에 적합하다.</html>");
+		jlblNo2OptionAnw_1 = new JLabel("<html>느리고 안정적인 응답보다는 즉각적인 응답이 필요한 온라인 업무에 적합하다.</html>");
 		jlblNo2OptionAnw_1.setBounds(70, 55, 420, 30);
 		jpNo2Exam.add(jlblNo2OptionAnw_1);
 		
-		JLabel jlblNo2OptionAnw_3 = new JLabel("<html>독립적인 애플리케이션을 하나의 통합된 시스템으로 묶기 위한 역할을 한다.</html>");
+		jlblNo2OptionAnw_3 = new JLabel("<html>독립적인 애플리케이션을 하나의 통합된 시스템으로 묶기 위한 역할을 한다.</html>");
 		jlblNo2OptionAnw_3.setBounds(70, 85, 420, 30);
 		jpNo2Exam.add(jlblNo2OptionAnw_3);
 		
-		JLabel jlblNo2OptionAnw_2 = new JLabel("<html>송신측과 수신측의 연결 시 메시지 큐를 활용하는 방법이 있다.</html>");
+		jlblNo2OptionAnw_2 = new JLabel("<html>송신측과 수신측의 연결 시 메시지 큐를 활용하는 방법이 있다.</html>");
 		jlblNo2OptionAnw_2.setBounds(70, 115, 420, 30);
 		jpNo2Exam.add(jlblNo2OptionAnw_2);
 		
-		JLabel jlblNo2OptionAnw_4 = new JLabel("<html>상이한 애플리케이션 간 통신을 비동기 방식으로 지원한다.</html>");
+		jlblNo2OptionAnw_4 = new JLabel("<html>상이한 애플리케이션 간 통신을 비동기 방식으로 지원한다.</html>");
 		jlblNo2OptionAnw_4.setBounds(70, 145, 420, 30);
 		jpNo2Exam.add(jlblNo2OptionAnw_4);
 		
@@ -158,9 +209,9 @@ public class Example_Test extends JDialog {
 		jlblNo3Title.setBounds(10, 15, 50, 20);
 		jpNo3Exam.add(jlblNo3Title);
 		
-		JLabel jlblNo3Sub = new JLabel("<html></html>");
-		jlblNo3Sub.setBounds(70, 10, 430, 30);
-		jpNo3Exam.add(jlblNo3Sub);
+		jlblNo3TitleSet = new JLabel("<html></html>");
+		jlblNo3TitleSet.setBounds(70, 10, 430, 30);
+		jpNo3Exam.add(jlblNo3TitleSet);
 		
 		JLabel jlblNo3Option_1 = new JLabel("①");
 		jlblNo3Option_1.setHorizontalAlignment(SwingConstants.CENTER);
@@ -186,19 +237,19 @@ public class Example_Test extends JDialog {
 		jlblNo3Answer.setBounds(370, 190, 40, 20);
 		jpNo3Exam.add(jlblNo3Answer);
 		
-		JLabel jlblNo3OptionAnw_1 = new JLabel("");
+		jlblNo3OptionAnw_1 = new JLabel("");
 		jlblNo3OptionAnw_1.setBounds(70, 55, 420, 30);
 		jpNo3Exam.add(jlblNo3OptionAnw_1);
 		
-		JLabel jlblNo3OptionAnw_3 = new JLabel("");
+		jlblNo3OptionAnw_3 = new JLabel("");
 		jlblNo3OptionAnw_3.setBounds(70, 85, 420, 30);
 		jpNo3Exam.add(jlblNo3OptionAnw_3);
 		
-		JLabel jlblNo3OptionAnw_2 = new JLabel("");
+		jlblNo3OptionAnw_2 = new JLabel("");
 		jlblNo3OptionAnw_2.setBounds(70, 115, 420, 30);
 		jpNo3Exam.add(jlblNo3OptionAnw_2);
 		
-		JLabel jlblNo3OptionAnw_4 = new JLabel("");
+		jlblNo3OptionAnw_4 = new JLabel("");
 		jlblNo3OptionAnw_4.setBounds(70, 145, 420, 30);
 		jpNo3Exam.add(jlblNo3OptionAnw_4);
 		
@@ -218,9 +269,9 @@ public class Example_Test extends JDialog {
 		jlblNo4Title.setBounds(10, 15, 50, 20);
 		jpNo4Exam.add(jlblNo4Title);
 		
-		JLabel jlblNo4Sub = new JLabel("<html></html>");
-		jlblNo4Sub.setBounds(70, 10, 430, 30);
-		jpNo4Exam.add(jlblNo4Sub);
+		jlblNo4TitleSet = new JLabel("<html></html>");
+		jlblNo4TitleSet.setBounds(70, 10, 430, 30);
+		jpNo4Exam.add(jlblNo4TitleSet);
 		
 		JLabel jlblNo4Option_1 = new JLabel("①");
 		jlblNo4Option_1.setHorizontalAlignment(SwingConstants.CENTER);
@@ -246,19 +297,19 @@ public class Example_Test extends JDialog {
 		jlblNo4Answer.setBounds(370, 190, 40, 20);
 		jpNo4Exam.add(jlblNo4Answer);
 		
-		JLabel jlblNo4OptionAnw_1 = new JLabel("");
+		jlblNo4OptionAnw_1 = new JLabel("");
 		jlblNo4OptionAnw_1.setBounds(70, 55, 420, 30);
 		jpNo4Exam.add(jlblNo4OptionAnw_1);
 		
-		JLabel jlblNo4OptionAnw_3 = new JLabel("");
+		jlblNo4OptionAnw_3 = new JLabel("");
 		jlblNo4OptionAnw_3.setBounds(70, 85, 420, 30);
 		jpNo4Exam.add(jlblNo4OptionAnw_3);
 		
-		JLabel jlblNo4OptionAnw_2 = new JLabel("");
+		jlblNo4OptionAnw_2 = new JLabel("");
 		jlblNo4OptionAnw_2.setBounds(70, 115, 420, 30);
 		jpNo4Exam.add(jlblNo4OptionAnw_2);
 		
-		JLabel jlblNo4OptionAnw_4 = new JLabel("");
+		jlblNo4OptionAnw_4 = new JLabel("");
 		jlblNo4OptionAnw_4.setBounds(70, 145, 420, 30);
 		jpNo4Exam.add(jlblNo4OptionAnw_4);
 		
@@ -278,9 +329,9 @@ public class Example_Test extends JDialog {
 		jlblNo5Title.setBounds(10, 15, 50, 20);
 		jpNo5Exam.add(jlblNo5Title);
 		
-		JLabel jlblNo5Sub = new JLabel("<html></html>");
-		jlblNo5Sub.setBounds(70, 10, 430, 30);
-		jpNo5Exam.add(jlblNo5Sub);
+		jlblNo5TitleSet = new JLabel("<html></html>");
+		jlblNo5TitleSet.setBounds(70, 10, 430, 30);
+		jpNo5Exam.add(jlblNo5TitleSet);
 		
 		JLabel jlblNo5Option_1 = new JLabel("①");
 		jlblNo5Option_1.setHorizontalAlignment(SwingConstants.CENTER);
@@ -306,19 +357,19 @@ public class Example_Test extends JDialog {
 		jlblNo5Answer.setBounds(370, 190, 40, 20);
 		jpNo5Exam.add(jlblNo5Answer);
 		
-		JLabel jlblNo5OptionAnw_1 = new JLabel("");
+		jlblNo5OptionAnw_1 = new JLabel("");
 		jlblNo5OptionAnw_1.setBounds(70, 55, 420, 30);
 		jpNo5Exam.add(jlblNo5OptionAnw_1);
 		
-		JLabel jlblNo5OptionAnw_3 = new JLabel("");
+		jlblNo5OptionAnw_3 = new JLabel("");
 		jlblNo5OptionAnw_3.setBounds(70, 85, 420, 30);
 		jpNo5Exam.add(jlblNo5OptionAnw_3);
 		
-		JLabel jlblNo5OptionAnw_2 = new JLabel("");
+		jlblNo5OptionAnw_2 = new JLabel("");
 		jlblNo5OptionAnw_2.setBounds(70, 115, 420, 30);
 		jpNo5Exam.add(jlblNo5OptionAnw_2);
 		
-		JLabel jlblNo5OptionAnw_4 = new JLabel("");
+		jlblNo5OptionAnw_4 = new JLabel("");
 		jlblNo5OptionAnw_4.setBounds(70, 145, 420, 30);
 		jpNo5Exam.add(jlblNo5OptionAnw_4);
 		
@@ -338,9 +389,9 @@ public class Example_Test extends JDialog {
 		jlblNo6Title.setBounds(10, 15, 50, 20);
 		jpNo6Exam.add(jlblNo6Title);
 		
-		JLabel jlblNo6Sub = new JLabel("<html></html>");
-		jlblNo6Sub.setBounds(70, 10, 430, 30);
-		jpNo6Exam.add(jlblNo6Sub);
+		jlblNo6TitleSet = new JLabel("<html></html>");
+		jlblNo6TitleSet.setBounds(70, 10, 430, 30);
+		jpNo6Exam.add(jlblNo6TitleSet);
 		
 		JLabel jlblNo6Option_1 = new JLabel("①");
 		jlblNo6Option_1.setHorizontalAlignment(SwingConstants.CENTER);
@@ -366,19 +417,19 @@ public class Example_Test extends JDialog {
 		jlblNo6Answer.setBounds(370, 190, 40, 20);
 		jpNo6Exam.add(jlblNo6Answer);
 		
-		JLabel jlblNo6OptionAnw_1 = new JLabel("");
+		jlblNo6OptionAnw_1 = new JLabel("");
 		jlblNo6OptionAnw_1.setBounds(70, 55, 420, 30);
 		jpNo6Exam.add(jlblNo6OptionAnw_1);
 		
-		JLabel jlblNo6OptionAnw_3 = new JLabel("");
+		jlblNo6OptionAnw_3 = new JLabel("");
 		jlblNo6OptionAnw_3.setBounds(70, 85, 420, 30);
 		jpNo6Exam.add(jlblNo6OptionAnw_3);
 		
-		JLabel jlblNo6OptionAnw_2 = new JLabel("");
+		jlblNo6OptionAnw_2 = new JLabel("");
 		jlblNo6OptionAnw_2.setBounds(70, 115, 420, 30);
 		jpNo6Exam.add(jlblNo6OptionAnw_2);
 		
-		JLabel jlblNo6OptionAnw_4 = new JLabel("");
+		jlblNo6OptionAnw_4 = new JLabel("");
 		jlblNo6OptionAnw_4.setBounds(70, 145, 420, 30);
 		jpNo6Exam.add(jlblNo6OptionAnw_4);
 		
@@ -398,9 +449,9 @@ public class Example_Test extends JDialog {
 		jlblNo7Title.setBounds(10, 15, 50, 20);
 		jpNo7Exam.add(jlblNo7Title);
 		
-		JLabel jlblNo7Sub = new JLabel("<html></html>");
-		jlblNo7Sub.setBounds(70, 10, 430, 30);
-		jpNo7Exam.add(jlblNo7Sub);
+		jlblNo7TitleSet = new JLabel("<html></html>");
+		jlblNo7TitleSet.setBounds(70, 10, 430, 30);
+		jpNo7Exam.add(jlblNo7TitleSet);
 		
 		JLabel jlblNo7Option_1 = new JLabel("①");
 		jlblNo7Option_1.setHorizontalAlignment(SwingConstants.CENTER);
@@ -426,19 +477,19 @@ public class Example_Test extends JDialog {
 		jlblNo7Answer.setBounds(370, 190, 40, 20);
 		jpNo7Exam.add(jlblNo7Answer);
 		
-		JLabel jlblNo7OptionAnw_1 = new JLabel("");
+		jlblNo7OptionAnw_1 = new JLabel("");
 		jlblNo7OptionAnw_1.setBounds(70, 55, 420, 30);
 		jpNo7Exam.add(jlblNo7OptionAnw_1);
 		
-		JLabel jlblNo7OptionAnw_3 = new JLabel("");
+		jlblNo7OptionAnw_3 = new JLabel("");
 		jlblNo7OptionAnw_3.setBounds(70, 85, 420, 30);
 		jpNo7Exam.add(jlblNo7OptionAnw_3);
 		
-		JLabel jlblNo7OptionAnw_2 = new JLabel("");
+		jlblNo7OptionAnw_2 = new JLabel("");
 		jlblNo7OptionAnw_2.setBounds(70, 115, 420, 30);
 		jpNo7Exam.add(jlblNo7OptionAnw_2);
 		
-		JLabel jlblNo7OptionAnw_4 = new JLabel("");
+		jlblNo7OptionAnw_4 = new JLabel("");
 		jlblNo7OptionAnw_4.setBounds(70, 145, 420, 30);
 		jpNo7Exam.add(jlblNo7OptionAnw_4);
 		
@@ -458,9 +509,9 @@ public class Example_Test extends JDialog {
 		jlblNo8Title.setBounds(10, 15, 50, 20);
 		jpNo8Exam.add(jlblNo8Title);
 		
-		JLabel jlblNo8Sub = new JLabel("<html></html>");
-		jlblNo8Sub.setBounds(70, 10, 430, 30);
-		jpNo8Exam.add(jlblNo8Sub);
+		jlblNo8TitleSet = new JLabel("<html></html>");
+		jlblNo8TitleSet.setBounds(70, 10, 430, 30);
+		jpNo8Exam.add(jlblNo8TitleSet);
 		
 		JLabel jlblNo8Option_1 = new JLabel("①");
 		jlblNo8Option_1.setHorizontalAlignment(SwingConstants.CENTER);
@@ -486,19 +537,19 @@ public class Example_Test extends JDialog {
 		jlblNo8Answer.setBounds(370, 190, 40, 20);
 		jpNo8Exam.add(jlblNo8Answer);
 		
-		JLabel jlblNo8OptionAnw_1 = new JLabel("");
+		jlblNo8OptionAnw_1 = new JLabel("");
 		jlblNo8OptionAnw_1.setBounds(70, 55, 420, 30);
 		jpNo8Exam.add(jlblNo8OptionAnw_1);
 		
-		JLabel jlblNo8OptionAnw_3 = new JLabel("");
+		jlblNo8OptionAnw_3 = new JLabel("");
 		jlblNo8OptionAnw_3.setBounds(70, 85, 420, 30);
 		jpNo8Exam.add(jlblNo8OptionAnw_3);
 		
-		JLabel jlblNo8OptionAnw_2 = new JLabel("");
+		jlblNo8OptionAnw_2 = new JLabel("");
 		jlblNo8OptionAnw_2.setBounds(70, 115, 420, 30);
 		jpNo8Exam.add(jlblNo8OptionAnw_2);
 		
-		JLabel jlblNo8OptionAnw_4 = new JLabel("");
+		jlblNo8OptionAnw_4 = new JLabel("");
 		jlblNo8OptionAnw_4.setBounds(70, 145, 420, 30);
 		jpNo8Exam.add(jlblNo8OptionAnw_4);
 		
@@ -518,9 +569,9 @@ public class Example_Test extends JDialog {
 		jlblNo9Title.setBounds(10, 15, 50, 20);
 		jpNo9Exam.add(jlblNo9Title);
 		
-		JLabel jlblNo9Sub = new JLabel("<html></html>");
-		jlblNo9Sub.setBounds(70, 10, 430, 30);
-		jpNo9Exam.add(jlblNo9Sub);
+		jlblNo9TitleSet = new JLabel("<html></html>");
+		jlblNo9TitleSet.setBounds(70, 10, 430, 30);
+		jpNo9Exam.add(jlblNo9TitleSet);
 		
 		JLabel jlblNo9Option_1 = new JLabel("①");
 		jlblNo9Option_1.setHorizontalAlignment(SwingConstants.CENTER);
@@ -546,19 +597,19 @@ public class Example_Test extends JDialog {
 		jlblNo9Answer.setBounds(370, 190, 40, 20);
 		jpNo9Exam.add(jlblNo9Answer);
 		
-		JLabel jlblNo9OptionAnw_1 = new JLabel("");
+		jlblNo9OptionAnw_1 = new JLabel("");
 		jlblNo9OptionAnw_1.setBounds(70, 55, 420, 30);
 		jpNo9Exam.add(jlblNo9OptionAnw_1);
 		
-		JLabel jlblNo9OptionAnw_3 = new JLabel("");
+		jlblNo9OptionAnw_3 = new JLabel("");
 		jlblNo9OptionAnw_3.setBounds(70, 85, 420, 30);
 		jpNo9Exam.add(jlblNo9OptionAnw_3);
 		
-		JLabel jlblNo9OptionAnw_2 = new JLabel("");
+		jlblNo9OptionAnw_2 = new JLabel("");
 		jlblNo9OptionAnw_2.setBounds(70, 115, 420, 30);
 		jpNo9Exam.add(jlblNo9OptionAnw_2);
 		
-		JLabel jlblNo9OptionAnw_4 = new JLabel("");
+		jlblNo9OptionAnw_4 = new JLabel("");
 		jlblNo9OptionAnw_4.setBounds(70, 145, 420, 30);
 		jpNo9Exam.add(jlblNo9OptionAnw_4);
 		
@@ -578,9 +629,9 @@ public class Example_Test extends JDialog {
 		jlblNo10Title.setBounds(10, 15, 50, 20);
 		jpNo10Exam.add(jlblNo10Title);
 		
-		JLabel jlblNo10Sub = new JLabel("<html></html>");
-		jlblNo10Sub.setBounds(70, 10, 430, 30);
-		jpNo10Exam.add(jlblNo10Sub);
+		jlblNo10TitleSet = new JLabel("<html></html>");
+		jlblNo10TitleSet.setBounds(70, 10, 430, 30);
+		jpNo10Exam.add(jlblNo10TitleSet);
 		
 		JLabel jlblNo10Option_1 = new JLabel("①");
 		jlblNo10Option_1.setHorizontalAlignment(SwingConstants.CENTER);
@@ -606,19 +657,19 @@ public class Example_Test extends JDialog {
 		jlblNo10Answer.setBounds(370, 190, 40, 20);
 		jpNo10Exam.add(jlblNo10Answer);
 		
-		JLabel jlblNo10OptionAnw_1 = new JLabel("");
+		jlblNo10OptionAnw_1 = new JLabel("");
 		jlblNo10OptionAnw_1.setBounds(70, 55, 420, 30);
 		jpNo10Exam.add(jlblNo10OptionAnw_1);
 		
-		JLabel jlblNo10OptionAnw_3 = new JLabel("");
+		jlblNo10OptionAnw_3 = new JLabel("");
 		jlblNo10OptionAnw_3.setBounds(70, 85, 420, 30);
 		jpNo10Exam.add(jlblNo10OptionAnw_3);
 		
-		JLabel jlblNo10OptionAnw_2 = new JLabel("");
+		jlblNo10OptionAnw_2 = new JLabel("");
 		jlblNo10OptionAnw_2.setBounds(70, 115, 420, 30);
 		jpNo10Exam.add(jlblNo10OptionAnw_2);
 		
-		JLabel jlblNo10OptionAnw_4 = new JLabel("");
+		jlblNo10OptionAnw_4 = new JLabel("");
 		jlblNo10OptionAnw_4.setBounds(70, 145, 420, 30);
 		jpNo10Exam.add(jlblNo10OptionAnw_4);
 		
@@ -644,5 +695,207 @@ public class Example_Test extends JDialog {
 		setLocationRelativeTo(e);
 		setVisible(true);
 		
+	}// Example_Test
+
+	public JLabel getJlblNo1TitleSet() {
+		return jlblNo1TitleSet;
 	}
+
+	public JLabel getJlblNo1OptionAnw_1() {
+		return jlblNo1OptionAnw_1;
+	}
+
+	public JLabel getJlblNo1OptionAnw_3() {
+		return jlblNo1OptionAnw_3;
+	}
+
+	public JLabel getJlblNo1OptionAnw_2() {
+		return jlblNo1OptionAnw_2;
+	}
+
+	public JLabel getJlblNo1OptionAnw_4() {
+		return jlblNo1OptionAnw_4;
+	}
+
+	public JLabel getJlblNo2TitleSet() {
+		return jlblNo2TitleSet;
+	}
+
+	public JLabel getJlblNo2OptionAnw_1() {
+		return jlblNo2OptionAnw_1;
+	}
+
+	public JLabel getJlblNo2OptionAnw_3() {
+		return jlblNo2OptionAnw_3;
+	}
+
+	public JLabel getJlblNo2OptionAnw_2() {
+		return jlblNo2OptionAnw_2;
+	}
+
+	public JLabel getJlblNo2OptionAnw_4() {
+		return jlblNo2OptionAnw_4;
+	}
+
+	public JLabel getJlblNo3TitleSet() {
+		return jlblNo3TitleSet;
+	}
+
+	public JLabel getJlblNo3OptionAnw_1() {
+		return jlblNo3OptionAnw_1;
+	}
+
+	public JLabel getJlblNo3OptionAnw_3() {
+		return jlblNo3OptionAnw_3;
+	}
+
+	public JLabel getJlblNo3OptionAnw_2() {
+		return jlblNo3OptionAnw_2;
+	}
+
+	public JLabel getJlblNo3OptionAnw_4() {
+		return jlblNo3OptionAnw_4;
+	}
+
+	public JLabel getJlblNo4TitleSet() {
+		return jlblNo4TitleSet;
+	}
+
+	public JLabel getJlblNo4OptionAnw_1() {
+		return jlblNo4OptionAnw_1;
+	}
+
+	public JLabel getJlblNo4OptionAnw_3() {
+		return jlblNo4OptionAnw_3;
+	}
+
+	public JLabel getJlblNo4OptionAnw_2() {
+		return jlblNo4OptionAnw_2;
+	}
+
+	public JLabel getJlblNo4OptionAnw_4() {
+		return jlblNo4OptionAnw_4;
+	}
+
+	public JLabel getJlblNo5TitleSet() {
+		return jlblNo5TitleSet;
+	}
+
+	public JLabel getJlblNo5OptionAnw_1() {
+		return jlblNo5OptionAnw_1;
+	}
+
+	public JLabel getJlblNo5OptionAnw_3() {
+		return jlblNo5OptionAnw_3;
+	}
+
+	public JLabel getJlblNo5OptionAnw_2() {
+		return jlblNo5OptionAnw_2;
+	}
+
+	public JLabel getJlblNo5OptionAnw_4() {
+		return jlblNo5OptionAnw_4;
+	}
+
+	public JLabel getJlblNo6TitleSet() {
+		return jlblNo6TitleSet;
+	}
+
+	public JLabel getJlblNo6OptionAnw_1() {
+		return jlblNo6OptionAnw_1;
+	}
+
+	public JLabel getJlblNo6OptionAnw_3() {
+		return jlblNo6OptionAnw_3;
+	}
+
+	public JLabel getJlblNo6OptionAnw_2() {
+		return jlblNo6OptionAnw_2;
+	}
+
+	public JLabel getJlblNo6OptionAnw_4() {
+		return jlblNo6OptionAnw_4;
+	}
+
+	public JLabel getJlblNo7TitleSet() {
+		return jlblNo7TitleSet;
+	}
+
+	public JLabel getJlblNo7OptionAnw_1() {
+		return jlblNo7OptionAnw_1;
+	}
+
+	public JLabel getJlblNo7OptionAnw_3() {
+		return jlblNo7OptionAnw_3;
+	}
+
+	public JLabel getJlblNo7OptionAnw_2() {
+		return jlblNo7OptionAnw_2;
+	}
+
+	public JLabel getJlblNo7OptionAnw_4() {
+		return jlblNo7OptionAnw_4;
+	}
+
+	public JLabel getJlblNo8TitleSet() {
+		return jlblNo8TitleSet;
+	}
+
+	public JLabel getJlblNo8OptionAnw_1() {
+		return jlblNo8OptionAnw_1;
+	}
+
+	public JLabel getJlblNo8OptionAnw_3() {
+		return jlblNo8OptionAnw_3;
+	}
+
+	public JLabel getJlblNo8OptionAnw_2() {
+		return jlblNo8OptionAnw_2;
+	}
+
+	public JLabel getJlblNo8OptionAnw_4() {
+		return jlblNo8OptionAnw_4;
+	}
+
+	public JLabel getJlblNo9TitleSet() {
+		return jlblNo9TitleSet;
+	}
+
+	public JLabel getJlblNo9OptionAnw_1() {
+		return jlblNo9OptionAnw_1;
+	}
+
+	public JLabel getJlblNo9OptionAnw_3() {
+		return jlblNo9OptionAnw_3;
+	}
+
+	public JLabel getJlblNo9OptionAnw_2() {
+		return jlblNo9OptionAnw_2;
+	}
+
+	public JLabel getJlblNo9OptionAnw_4() {
+		return jlblNo9OptionAnw_4;
+	}
+
+	public JLabel getJlblNo10TitleSet() {
+		return jlblNo10TitleSet;
+	}
+
+	public JLabel getJlblNo10OptionAnw_1() {
+		return jlblNo10OptionAnw_1;
+	}
+
+	public JLabel getJlblNo10OptionAnw_3() {
+		return jlblNo10OptionAnw_3;
+	}
+
+	public JLabel getJlblNo10OptionAnw_2() {
+		return jlblNo10OptionAnw_2;
+	}
+
+	public JLabel getJlblNo10OptionAnw_4() {
+		return jlblNo10OptionAnw_4;
+	}
+	
+	
 }
